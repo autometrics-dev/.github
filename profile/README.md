@@ -9,8 +9,12 @@ Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [
 ## Implementations
 
 - [Rust](https://github.com/autometrics-dev/autometrics-rs)
+- (Coming Very Soon!) TypeScript
+- (Coming Soon!) Python
+- (Coming Soon!) Go
+- (Coming Soon!) Ruby
 
-More coming soon!
+Want to help implement autometrics in another language? Get in touch! We'd love to work with you on it.
 
 ## Why Autometrics?
 
