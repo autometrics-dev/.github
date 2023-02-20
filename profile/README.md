@@ -6,9 +6,7 @@ The libraries track the most useful metrics (request and error rate and latency)
 
 Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [OpenTelemetry](https://opentelemetry.io/) open source projects.
 
-<video controls autoplay loop muted>
-  <source src="https://user-images.githubusercontent.com/3262610/220152261-2ad6ab2b-f951-4b51-8d6e-855fb71440a3.mp4">
-</video>
+<video controls autoplay loop muted src="https://user-images.githubusercontent.com/3262610/220152261-2ad6ab2b-f951-4b51-8d6e-855fb71440a3.mp4"></video>
 
 ---
 
