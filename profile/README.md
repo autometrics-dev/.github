@@ -1,4 +1,4 @@
-# Autometrics 📈✨
+# Autometrics 📈✨ <!-- omit from toc -->
 
 Autometrics is a set of open source libraries that make it easy to understand the performance of your code in production.
 
@@ -8,7 +8,24 @@ Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [
 
 ---
 
+<!-- TOC generated with Markdown All in One https://github.com/yzhang-gh/vscode-markdown -->
 
+- [1. Getting Started](#1-getting-started)
+- [2. Implementations](#2-implementations)
+- [3. Why Metrics?](#3-why-metrics)
+  - [3.1. Too many logs!](#31-too-many-logs)
+  - [3.2. Metrics](#32-metrics)
+  - [3.3. Metrics today are hard to use](#33-metrics-today-are-hard-to-use)
+- [4. Why Autometrics?](#4-why-autometrics)
+  - [4.1. Simplifying code-level observability](#41-simplifying-code-level-observability)
+  - [4.2. Standardizing function-level metrics](#42-standardizing-function-level-metrics)
+  - [4.3. Labeling metrics with useful, low-cardinality function details](#43-labeling-metrics-with-useful-low-cardinality-function-details)
+  - [4.4. "Tracing Lite"](#44-tracing-lite)
+- [5. Configuring Prometheus](#5-configuring-prometheus)
+  - [5.1. Local Prometheus (For Testing)](#51-local-prometheus-for-testing)
+  - [5.2. Fly.io](#52-flyio)
+  - [5.3. Kubernetes](#53-kubernetes)
+- [6. Contributing](#6-contributing)
 
 ---
 
