@@ -1,4 +1,5 @@
-# Autometrics 📈✨ <!-- omit from toc -->
+![GitHub_headerImage](https://user-images.githubusercontent.com/3262610/221191257-ee75ed39-9c24-4480-8522-6ac47eb97532.png)
+
 
 Autometrics is a set of open source libraries that make it easy to understand the performance of your code in production.
 
