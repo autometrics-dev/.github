@@ -45,7 +45,7 @@ Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [
 - [Rust](https://github.com/autometrics-dev/autometrics-rs)
 - [TypeScript](https://github.com/autometrics-dev/autometrics-ts)
 - [Go](https://github.com/autometrics-dev/autometrics-go) (alpha)
-- (Coming Soon!) Python
+- [Python](https://github.com/autometrics-dev/autometrics-py) (alpha)
 - (Coming Soon!) Ruby
 
 Want to help implement autometrics in another language? Get in touch! We'd love to work with you on it.
