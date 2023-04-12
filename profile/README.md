@@ -1,15 +1,17 @@
 ![GitHub_headerImage](https://user-images.githubusercontent.com/3262610/221191257-ee75ed39-9c24-4480-8522-6ac47eb97532.png)
 
 
-[Autometrics](https://autometrics.dev) is a set of open source libraries that make it easy to understand the performance of your code in production.
+[Autometrics](https://autometrics.dev) is an open source framework that makes it easy to understand the health and performance of your code in production.
 
-The libraries track the most useful metrics (request and error rate and latency) of any function, generate queries to help you understand the data collected, and insert links to the live charts directly into each function's doc comments.
+The libraries track the most useful metrics (request and error rate and latency) of any function, generate queries to help you understand the data collected, and insert links to the live charts directly into each function's doc comments. Autometrics also provides dashboards to get an overview of instrumented functions and enables you to create powerful alerts based on Service-Level Objectives (SLOs) directly in your source code.
 
 Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [OpenTelemetry](https://opentelemetry.io/) open source projects.
 
 [![Discord Shield](https://discordapp.com/api/guilds/950489382626951178/widget.png?style=shield)](https://discord.gg/kHtwcH8As9)
 
 <video controls autoplay loop muted src="https://user-images.githubusercontent.com/3262610/220152261-2ad6ab2b-f951-4b51-8d6e-855fb71440a3.mp4"></video>
+
+![Autometrics Diagram](https://user-images.githubusercontent.com/3262610/231589357-9991322e-867f-4bd2-9c48-0ac9f22c9e0b.png)
 
 ---
 
