@@ -32,7 +32,7 @@ Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [
   - [5.1. Local Prometheus (For Testing)](#51-local-prometheus-for-testing)
   - [5.2. Fly.io](#52-flyio)
   - [5.3. Kubernetes](#53-kubernetes)
-- [6. Contributing](#6-contributing)
+- [6. Getting Involved](#6-getting-involved)
 
 ---
 
