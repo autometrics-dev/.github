@@ -203,6 +203,6 @@ We would love to have you! If you have ideas, suggestions, questions, or would l
 
 You can get invovled in a variety of ways:
 - Join the conversation on [Discord](https://discord.gg/kHtwcH8As9)
-- See the ongoing discussions and new ideas in the [Github Discussions](https://github.com/orgs/autometrics-dev/discussions) (this is a good place to bring up new feature ideas 💡)
+- See the ongoing discussions and new ideas in the [Github Discussions](https://github.com/orgs/autometrics-dev/discussions) (this is a good place to bring up new feature ideas)
 - Find the overall project roadmap [here](https://github.com/orgs/autometrics-dev/projects/1)
 - And take a look at the open issues on the repos of each of the [language implementations](#2-implementations)
