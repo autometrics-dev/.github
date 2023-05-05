@@ -1,11 +1,8 @@
 ![GitHub_headerImage](https://user-images.githubusercontent.com/3262610/221191257-ee75ed39-9c24-4480-8522-6ac47eb97532.png)
 
+[Autometrics](https://autometrics.dev) is an observability micro-framework built for developers. It makes it easy to instrument any function with the most useful metrics: request rate, error rate, and latency. Autometrics uses instrumented function names to generate Prometheus queries so you don’t need to hand-write complicated PromQL. 
 
-[Autometrics](https://autometrics.dev) is an open source framework that makes it easy to understand the health and performance of your code in production.
-
-The libraries track the most useful metrics (request and error rate and latency) of any function, generate queries to help you understand the data collected, and insert links to the live charts directly into each function's doc comments. Autometrics also provides dashboards to get an overview of instrumented functions and enables you to create powerful alerts based on Service-Level Objectives (SLOs) directly in your source code.
-
-Autometrics is built on the excellent [Prometheus](https://prometheus.io/) and [OpenTelemetry](https://opentelemetry.io/) open source projects.
+To make it easy for you to spot and debug issues in production, Autometrics inserts links to live charts directly into each function’s doc comments and provides dashboards that work out of the box. It also enables you to create powerful alerts based on Service-Level Objectives (SLOs) directly in your source code. Lastly, Autometrics writes queries that correlate your software’s version info with anomalies in the metrics to help you quickly identify commits that introduced bugs or latency.
 
 [![Discord Shield](https://discordapp.com/api/guilds/950489382626951178/widget.png?style=shield)](https://discord.gg/kHtwcH8As9)
 
@@ -94,9 +91,10 @@ Functions are one of the most fundamental building blocks of code. Why not use t
 A core part of autometrics is the simple idea of using standard metric names and a consistent scheme for tagging/labeling metrics.
 
 The three metrics currently used are:
-- `function.calls.count`
-- `function.calls.duration`
-- `function.calls.concurrent`.
+- `function.calls.count` - a counter used to track the request and error rate
+- `function.calls.duration` - a histogram used to track latency 
+- (optional) `function.calls.concurrent` - a gauge optionally used to track concurrent requests
+- `build_info` - a gauge (whose value never changes) used to track software version and commit information
 
 ###  4.3. Labeling metrics with useful, low-cardinality function details
 
@@ -108,7 +106,6 @@ For the function call counter, the following labels are also added:
 
 - `caller` - (see ["Tracing Lite"](#tracing-lite) below)
 - `result` - either `ok` or `error`
-- `ok` / `error` - the name of the concrete type of the returned value or error can also be attached as a label
 
 Autometrics aims to only support static values as labels to avoid the footgun of attaching labels with too many possible values. The [Prometheus docs](https://prometheus.io/docs/practices/naming/#labels) explain why this is important in the following warning:
 
