@@ -1,12 +1,12 @@
 ![GitHub_headerImage](https://user-images.githubusercontent.com/3262610/221191257-ee75ed39-9c24-4480-8522-6ac47eb97532.png)
 
-[Autometrics](https://autometrics.dev) is an observability micro-framework built for developers. It makes it easy to instrument any function with the most useful metrics: request rate, error rate, and latency. Autometrics uses instrumented function names to generate Prometheus queries so you don’t need to hand-write complicated PromQL. 
+[Autometrics](https://autometrics.dev) is an observability micro-framework built for developers. It makes it easy to instrument any function with the most useful metrics: request rate, error rate, and latency. Autometrics uses instrumented function names to generate Prometheus queries so you don’t need to hand-write complicated PromQL.
 
 To make it easy for you to spot and debug issues in production, Autometrics inserts links to live charts directly into each function’s doc comments and provides dashboards that work out of the box. It also enables you to create powerful alerts based on Service-Level Objectives (SLOs) directly in your source code. Lastly, Autometrics writes queries that correlate your software’s version info with anomalies in the metrics to help you quickly identify commits that introduced bugs or latency.
 
 [![Discord Shield](https://discordapp.com/api/guilds/950489382626951178/widget.png?style=shield)](https://discord.gg/kHtwcH8As9)
 
-<video controls autoplay loop muted src="https://user-images.githubusercontent.com/3262610/220152261-2ad6ab2b-f951-4b51-8d6e-855fb71440a3.mp4"></video>
+<video controls autoplay loop muted src="./Autometrics Demo.mp4"></video>
 
 ![Autometrics Diagram](https://user-images.githubusercontent.com/3262610/231589357-9991322e-867f-4bd2-9c48-0ac9f22c9e0b.png)
 
@@ -92,7 +92,7 @@ A core part of autometrics is the simple idea of using standard metric names and
 
 The three metrics currently used are:
 - `function.calls.count` - a counter used to track the request and error rate
-- `function.calls.duration` - a histogram used to track latency 
+- `function.calls.duration` - a histogram used to track latency
 - (optional) `function.calls.concurrent` - a gauge optionally used to track concurrent requests
 - `build_info` - a gauge (whose value never changes) used to track software version and commit information
 
