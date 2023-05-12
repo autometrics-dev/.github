@@ -6,7 +6,7 @@ To make it easy for you to spot and debug issues in production, Autometrics inse
 
 [![Discord Shield](https://discordapp.com/api/guilds/950489382626951178/widget.png?style=shield)](https://discord.gg/kHtwcH8As9)
 
-<video controls autoplay loop muted src="./Autometrics Demo.mp4"></video>
+https://github.com/autometrics-dev/.github/assets/3262610/1015d153-01a9-48ab-bd81-fbc5f97e4e48
 
 ![Autometrics Diagram](https://user-images.githubusercontent.com/3262610/231589357-9991322e-867f-4bd2-9c48-0ac9f22c9e0b.png)
 
