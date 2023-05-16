@@ -45,7 +45,7 @@ https://github.com/autometrics-dev/.github/assets/3262610/1015d153-01a9-48ab-bd8
 - [TypeScript](https://github.com/autometrics-dev/autometrics-ts)
 - [Go](https://github.com/autometrics-dev/autometrics-go) (alpha)
 - [Python](https://github.com/autometrics-dev/autometrics-py) (alpha)
-- (Coming Soon!) Ruby
+- [C#](https://github.com/autometrics-dev/autometrics-cs) (alpha & community-contributed)
 
 Want to help implement autometrics in another language? Get in touch! We'd love to work with you on it.
 
