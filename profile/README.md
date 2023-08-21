@@ -19,7 +19,7 @@ Autometrics is available in the following programming languages:
 - **Go** - [Repo](https://github.com/autometrics-dev/autometrics-go) | [Quickstart](https://docs.autometrics.dev/go/quickstart) | [API Docs](https://pkg.go.dev/github.com/autometrics-dev/autometrics-go/cmd/autometrics)
 - **Python** - [Repo](https://github.com/autometrics-dev/autometrics-py) | [Quickstart](https://docs.autometrics.dev/python/quickstart) | [API Docs](https://pypi.org/project/autometrics/)
 - **C#/.NET** (community-maintained) - [Repo](https://github.com/autometrics-dev/autometrics-cs)
-- **Java** (community- maintained) - [Repo](https://github.com/jamsiedaly/autometricsj) | [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/22408-autometrics)
+- **Java** (community-maintained) - [Repo](https://github.com/jamsiedaly/autometricsj) | [IntelliJ Plugin](https://plugins.jetbrains.com/plugin/22408-autometrics)
 
 Want to help implement autometrics in another language? Take a look at the [Autometrics Specification](https://github.com/autometrics-dev/autometrics-shared/blob/main/SPEC.md) and get in touch! We'd love to work with you on it.
 
